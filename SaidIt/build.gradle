@@ -5,6 +5,7 @@ buildscript {
         maven { url "https://repo.maven.apache.org/maven2" }
     }
     dependencies {
+        classpath 'com.android.tools.build.gradle:1.10'
         classpath 'com.android.tools.build:gradle:8.2.2'
     }
 }
